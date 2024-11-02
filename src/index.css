@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  color: #000;
+}
+
+.App::before {
+  content: "";
+  background: url("./assets/sea.jpg") no-repeat center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.inp-field {
+  text-align: center;
+  padding: 20px;
+}
+
+.inp-field input {
+  padding: 14px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #8f8f8f;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.city p {
+  font-style: oblique;
+  font-size: 3rem;
+}
+
+.temp h1 {
+  font-size: 4rem;
+}
+
+.desk p {
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.footer {
+  margin: 100px auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 700px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.feels p,
+.temp p,
+.humidity p,
+.wind p {
+  font-size: 1.35rem;
+}
